@@ -49,6 +49,7 @@ Before starting, ensure you have the following installed on your system:
 
 - add my_program folder to the **package** directory in the OpenWrt build system
   ```bash
+    cd openwrt
     make package/my_program/compile -j1 v=s
   ```
 

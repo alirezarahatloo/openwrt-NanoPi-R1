@@ -24,3 +24,14 @@ Before starting, ensure you have the following installed on your system:
   ```
 ![Alt text](images/menuconfig-nanopi-R1.png) 
 
+  ```bash
+  make 
+  ```
+## Write image to Sd card
+  ```bash
+  cd bin/targets/sunxi/cortexa7/
+  gzip -d openwrt-sunxi-cortexa7-friendlyarm_nanopi-r1-ext4-sdcard.img.gz  
+  sudo dd if=openwrt-sunxi-cortexa7-friendlyarm_nanopi-r1-ext4-sdcard.img of=/dev/sdc
+  ```
+
+

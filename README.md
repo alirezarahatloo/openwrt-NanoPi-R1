@@ -22,5 +22,5 @@ Before starting, ensure you have the following installed on your system:
   ./scripts/feeds install -a
   make menuconfig
 
-![NanoPi R1 Image](images/menuconfig-nanopi-R1.png)
+![Alt text](images/example.png)
 

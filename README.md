@@ -51,6 +51,7 @@ Before starting, ensure you have the following installed on your system:
   ```bash
   cd openwrt
   make package/my_program/compile -j1 v=s
+  make
   ```
 
 

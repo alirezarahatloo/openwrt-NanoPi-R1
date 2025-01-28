@@ -13,7 +13,7 @@ Before starting, ensure you have the following installed on your system:
   ```bash
   sudo apt update
   sudo apt install build-essential libncurses5-dev libncursesw5-dev zlib1g-dev gawk git gettext libssl-dev xsltproc rsync wget unzip python3
-
+![Alt text](images/example.png)
 ## Build image
   ```bash 
   git clone https://git.openwrt.org/openwrt/openwrt.git

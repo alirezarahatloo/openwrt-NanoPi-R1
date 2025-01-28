@@ -42,8 +42,15 @@ Before starting, ensure you have the following installed on your system:
     2.Select luci (this includes the basic Luci web interface).
 
     3.Optionally, select additional Luci modules (e.g., luci-ssl for HTTPS support).
-    
+
     4.Save and exit the configuration.
+
+## How to add a C program to the image
+
+- add my_program folder to the **package** directory in the OpenWrt build system
+  ```bash
+    make package/my_program/compile -j1 v=s
+  ```
 
 
 

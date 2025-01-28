@@ -27,11 +27,24 @@ Before starting, ensure you have the following installed on your system:
   ```bash
   make 
   ```
-## Write image to Sd card
+## Writing the OpenWrt image to an SD card
   ```bash
   cd bin/targets/sunxi/cortexa7/
   gzip -d openwrt-sunxi-cortexa7-friendlyarm_nanopi-r1-ext4-sdcard.img.gz  
   sudo dd if=openwrt-sunxi-cortexa7-friendlyarm_nanopi-r1-ext4-sdcard.img of=/dev/sdc
   ```
+## Adding Luci
+
+- In the menuconfig interface:
+
+    1.Navigate to LuCI → Collections.
+
+    2.Select luci (this includes the basic Luci web interface).
+
+    3.Optionally, select additional Luci modules (e.g., luci-ssl for HTTPS support).
+
+    4.Save and exit the configuration.
+
+
 
 

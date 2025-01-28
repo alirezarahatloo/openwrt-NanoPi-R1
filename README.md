@@ -38,8 +38,11 @@ Before starting, ensure you have the following installed on your system:
 - In the menuconfig interface:
 
     1.Navigate to **LuCI** → **Collections**.
+
     2.Select luci (this includes the basic Luci web interface).
+
     3.Optionally, select additional Luci modules (e.g., luci-ssl for HTTPS support).
+    
     4.Save and exit the configuration.
 
 
